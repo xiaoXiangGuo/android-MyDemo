@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="yishitongda.www.demo.activity.MainActivity">
+
+    <Button
+        android:id="@+id/bt_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="web" />
+    <Button
+        android:id="@+id/bt_video_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="video_call" />
+    <Button
+        android:id="@+id/bt_screen_cap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="screen_cap" />
+
+</android.support.v7.widget.LinearLayoutCompat>
